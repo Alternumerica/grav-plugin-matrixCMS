@@ -1,0 +1,25 @@
+name: MatrixCMS
+version: 1.1.3
+description: This plugin adds the assets to add content from a Matrix Room
+icon: th-large
+author:
+  name: Ariko
+  email: ariko@alternumerica.org
+homepage: https://github.com/Alternumerica/MatrixSimpleCMS
+bugs: https://github.com/Alternumerica/MatrixSimpleCMS/issues
+license: MIT
+keywords: matrix
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
